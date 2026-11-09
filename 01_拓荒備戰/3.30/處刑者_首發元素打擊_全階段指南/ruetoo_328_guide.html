@@ -2,7 +2,7 @@
 <html lang="zh-TW">
 <head>
 <meta charset="UTF-8">
-<title>【POE 3.28】Ruetoo 近戰元素打擊 處刑者 首發拓荒全解析指南</title>
+<title>【POE 3.28 ~ 3.30】Ruetoo 近戰元素打擊 處刑者 首發拓荒全解析指南</title>
 <style>
     @page {
         size: A4;
@@ -153,16 +153,6 @@
         padding: 5px 8px;
         margin: 4px 0;
     }
-    .code-box {
-        background: #f1f3f5;
-        border: 1px solid #ced4da;
-        border-radius: 3px;
-        padding: 1px 5px;
-        font-family: Consolas, monospace;
-        font-size: 10.5px;
-        color: #c92a2a;
-        font-weight: bold;
-    }
     ul, ol {
         margin: 2px 0 5px 14px;
         padding: 0;
@@ -205,7 +195,7 @@
 <body>
 
 <div class="header-banner">
-    <h1>【POE 3.28】Ruetoo 近戰元素打擊 處刑者 拓荒首選全解析指南</h1>
+    <h1>【POE 3.28 ~ 3.30】Ruetoo 近戰元素打擊 處刑者 拓荒首選全解析指南</h1>
     <div class="subtitle">原作者：Ruetoo ｜ 影片文字深度解說、天賦點法拆解、PoB 原碼五階段配置與避坑指南</div>
     <div class="meta-tag">PoB / Garena 官方繁體中文 100% 正名核對 ｜ 附完整 PoB 代碼與影片來源</div>
 </div>
@@ -220,10 +210,10 @@
 
 <h2>一、 核心機制與為什麼這版強無敵 (Why it's so strong?)</h2>
 <p>
-【元素打擊 (Elemental Hit)】近戰版在 3.28 幻市賽季具備天然的降維打擊優勢：
+【元素打擊 (Elemental Hit)】近戰版在 3.28 幻市賽季與 3.30 拓荒具備天然的降維打擊優勢：
 </p>
 <ul>
-    <li><b>自帶法術級海量基礎元素點傷</b>：技能石等級直接提供巨額火、冰、電三屬性點傷，<b>武器不需要昂貴的物理大傷</b>，只需高攻速基底即可起飛！</li>
+    <li><b>自帶法術級海量基礎元素點傷</b>：技能寶石等級直接提供巨額火、冰、電三屬性點傷，<b>武器不需要昂貴的物理大傷</b>，只需高攻速基底即可起飛！</li>
     <li><b>原生 +20% MORE (更多) 攻擊速度</b>：完美契合單手劍與爪類的極速打擊。</li>
     <li><b>處刑者昇華補足近戰短板</b>：點出【衝擊 (Impact)】提供 +2 近戰打擊距離與 50% 範圍效果，一刀揮出橫掃半個螢幕，徹底解決傳統近戰手短便秘的痛點！</li>
 </ul>
@@ -246,7 +236,7 @@
         <ul>
             <li><b>【神采之形 (Masterful Form)】</b>（處刑者）：最大狂怒球等於最大耐力球（常駐 7~8 顆耐力球提供 30%+ 物理與元素常駐減傷）。</li>
             <li><b>【衝擊 (Impact)】</b>（處刑者）：+2 打擊距離、50% 範圍效果、命中率倍增。</li>
-            <li><b>【殘暴熱情 (Brutal Fervour)】</b>（處刑者）：偷取不中斷（超量偷取），站擼血條鎖死。</li>
+            <li><b>【殘暴熱情 (Brutal Fervour)】</b>（處刑者）：滿血超量偷取不中斷 Overleech，站擼血條鎖死。</li>
             <li><b>【零點射擊 (Point Blank)】</b>：近身擊中獲得更多傷害（過渡期）。</li>
         </ul>
     </div>
@@ -274,7 +264,7 @@
             <li><b>【根深蒂固 (Inveterate)】</b>：核心法術傷害壓制機率 + 壓制額外減免。</li>
             <li><b>【強化之膚 (Thick Skin)】</b>：生命上限 + 元素異常狀態避免。</li>
             <li><b>【藥草學 (Herbalism)】</b>、<b>【嗜血者 (Blood Drinker)】</b>：生命池擴張。</li>
-            <li><b>爪類專精 (Claw Mastery)】</b>：擊中回復 25 生命與魔力（徹底解決魔耗）。</li>
+            <li><b>【爪類專精 (Claw Mastery)】</b>：擊中回復 25 生命與 25 魔力（徹底解決魔耗）。</li>
         </ul>
     </div>
 </div>
@@ -298,30 +288,30 @@
             <span class="gem-red">元素打擊</span> <span class="gem-link">—</span>
             <span class="gem-blue">三體輔助</span> <span class="gem-link">—</span>
             <span class="gem-red">多重打擊輔助</span> <span class="gem-link">—</span>
-            <span class="gem-red">武器元素傷害輔助</span> <span class="gem-link">—</span>
+            <span class="gem-red">元素攻擊傷害輔助</span> <span class="gem-link">—</span>
             <span class="gem-red">殘暴輔助</span> <span class="gem-link">—</span>
             <span class="gem-red">啟發輔助</span>
         </td>
         <td>
-            • <span class="gem-green">迴旋之刃</span> <span class="gem-link">—</span> <span class="gem-green">氣勢輔助</span> <span class="gem-link">—</span> <span class="gem-green">快速攻擊輔助</span> <span class="gem-link">—</span> <span class="gem-red">赤血凝結/血魔法</span><br>
-            • <span class="gem-red">血與沙</span>、<span class="gem-red">血肉與岩石</span>、<span class="gem-green">恩寵</span>、<span class="gem-green">精準</span><br>
-            • <span class="gem-blue">霜漣之瞬</span> <span class="gem-link">—</span> <span class="gem-blue">急凍輔助</span> <span class="gem-link">—</span> <span class="gem-blue">水球</span> <span class="gem-link">—</span> <span class="gem-blue">點燃輔助</span><br>
-            • <span class="gem-blue">刺客印記</span> <span class="gem-link">—</span> <span class="gem-green">擊中附加印記輔助</span><br>
+            • <span class="gem-green">迴旋之刃</span> <span class="gem-link">—</span> <span class="gem-green">氣勢輔助</span> <span class="gem-link">—</span> <span class="gem-green">快速攻擊輔助</span> <span class="gem-link">—</span> <span class="gem-red">活栓輔助</span><br>
+            • <span class="gem-red">血腥沙戮</span>、<span class="gem-red">血肉骸骨</span>、<span class="gem-green">優雅</span>、<span class="gem-green">精準</span><br>
+            • <span class="gem-blue">霜漣之瞬</span> <span class="gem-link">—</span> <span class="gem-blue">寒冰刺骨輔助</span> <span class="gem-link">—</span> <span class="gem-blue">水弒界</span> <span class="gem-link">—</span> <span class="gem-blue">燃燒輔助</span><br>
+            • <span class="gem-blue">刺客印記</span> <span class="gem-link">—</span> <span class="gem-green">擊中時印記輔助</span><br>
             • <span class="gem-red">不朽怒嚎</span> <span class="gem-link">—</span> <span class="gem-red">受傷時施放輔助</span>、<span class="gem-green">鮮血狂怒</span>
         </td>
     </tr>
     <tr>
-        <td><b>Step 2</b><br>(血魔法與耐力球)</td>
+        <td><b>Step 2</b><br>(活栓與耐力球)</td>
         <td>
             <span class="gem-red">元素打擊</span> <span class="gem-link">—</span>
             <span class="gem-blue">三體輔助</span> <span class="gem-link">—</span>
-            <span class="gem-red">生命偷取/血魔法</span><br>
+            <span class="gem-red">活栓輔助</span><br>
             <span class="gem-red">多重打擊輔助</span> <span class="gem-link">—</span>
             <span class="gem-red">殘暴輔助</span> <span class="gem-link">—</span>
             <span class="gem-red">近戰擊暈獲得耐力球輔助</span>
         </td>
         <td>
-            • 核心解決魔力消耗問題，引入血魔法輔助消耗生命。<br>
+            • 核心解決魔力消耗問題，引入活栓輔助消耗生命。<br>
             • 配合近戰擊暈穩定常駐 7~8 顆耐力球。<br>
             • 維持迴旋之刃高速穿行與刺客印記自動化。
         </td>
@@ -331,14 +321,14 @@
         <td>
             <span class="gem-red">元素打擊</span> <span class="gem-link">—</span>
             <span class="gem-blue">三體輔助</span> <span class="gem-link">—</span>
-            <span class="gem-red">生命偷取輔助</span><br>
+            <span class="gem-red">活栓輔助</span><br>
             <span class="gem-red">殘暴輔助</span> <span class="gem-link">—</span>
-            <span class="gem-red">近戰擊暈獲得耐力球</span> <span class="gem-link">—</span>
+            <span class="gem-red">近戰擊暈獲得耐力球輔助</span> <span class="gem-link">—</span>
             <span class="gem-red">高階先祖怒嚎輔助</span> <span class="gem-link">—</span>
             <span class="gem-red">高階多重打擊輔助</span>
         </td>
         <td>
-            • 引入【高階先祖怒嚎】與【高階多重打擊】，清圖範圍呈現幾何級數放大！<br>
+            • 引入【高階先祖怒嚎輔助】與【高階多重打擊輔助】，清圖範圍呈現幾何級數放大！<br>
             • 單次打擊覆蓋整張螢幕，單體對王依然保留多重打擊的極限頻率。
         </td>
     </tr>
@@ -347,14 +337,14 @@
         <td>
             <span class="gem-red">元素打擊</span> <span class="gem-link">—</span>
             <span class="gem-blue">三體輔助</span> <span class="gem-link">—</span>
-            <span class="gem-red">生命偷取輔助</span> <span class="gem-link">—</span>
+            <span class="gem-red">活栓輔助</span> <span class="gem-link">—</span>
             <span class="gem-red">近戰擊暈獲得耐力球輔助</span><br>
             <span class="gem-red">殘暴輔助</span> <span class="gem-link">—</span>
-            <span class="gem-red">高階先祖怒嚎</span> <span class="gem-link">—</span>
-            <span class="gem-red">高階多重打擊</span>
+            <span class="gem-red">高階先祖怒嚎輔助</span> <span class="gem-link">—</span>
+            <span class="gem-red">高階多重打擊輔助</span>
         </td>
         <td>
-            • 水球串聯撲殺輔助 (Culling Strike)。<br>
+            • 水弒界串聯撲殺輔助 (Culling Strike)。<br>
             • 裝備引入【無形之彩】蛋白石戒指，自動上滿滿層易碎 (Brittle，基礎暴擊 +5%~6%) 與焦灼 (Scorch)。
         </td>
     </tr>
@@ -364,7 +354,7 @@
             <b>主手武器 3 輔助詞綴 ＋ 副手【大地主 (The Squire)】3 槽 ＋ 主手 3 槽 ＝ 9 連終極核彈打擊！</b>
         </td>
         <td>
-            • 光環調整為：<span class="gem-red">火焰淨化</span>、<span class="gem-blue">極地裝甲</span>、<span class="gem-blue">啟蒙輔助 (4等)</span>、<span class="gem-red">血與沙</span>、<span class="gem-red">血肉與岩石</span>、<span class="gem-green">精準</span>。<br>
+            • 光環調整為：<span class="gem-red">火焰淨化</span>、<span class="gem-blue">極地裝甲</span>、<span class="gem-blue">啟蒙輔助 (4等)</span>、<span class="gem-red">血腥沙戮</span>、<span class="gem-red">血肉骸骨</span>、<span class="gem-green">精準</span>。<br>
             • 物理減傷 90%、法壓 100%、大火抗 85%+，站擼 T17 與 Uber Boss！
         </td>
     </tr>
@@ -390,7 +380,7 @@
 </p>
 
 <div class="footer">
-Generated for PoE 3.28 Ruetoo Starter Analysis ｜ 100% Compliant with PoB Official Traditional Chinese Terminology
+Generated for PoE 3.28 ~ 3.30 Ruetoo Starter Analysis ｜ 100% Compliant with PoB Official Traditional Chinese Terminology
 </div>
 
 </body>
