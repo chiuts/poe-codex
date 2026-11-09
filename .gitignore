@@ -1,0 +1,10 @@
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Editor / Temporary
+*.tmp
+*.bak
+.vscode/
+.idea/

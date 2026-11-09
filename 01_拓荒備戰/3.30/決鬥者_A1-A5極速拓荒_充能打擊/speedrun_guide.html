@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>【POE】Duelist 決鬥者 A5 57:09 速通世界紀錄全方位解析指南 - Ben_</title>
+<style>
+    @page {
+        size: A4;
+        margin: 13mm 13mm 13mm 13mm;
+    }
+    body {
+        font-family: "Microsoft JhengHei", "微軟正黑體", "Segoe UI", sans-serif;
+        color: #1a1a1a;
+        background-color: #fff;
+        line-height: 1.55;
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+    }
+    .header-banner {
+        border-bottom: 3px solid #8b0000;
+        padding-bottom: 8px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+    h1 {
+        color: #8b0000;
+        font-size: 22px;
+        margin: 0 0 4px 0;
+        letter-spacing: 0.5px;
+    }
+    .subtitle {
+        color: #444;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .video-links {
+        background: #f8fafc;
+        border: 1px solid #cbd5e1;
+        border-radius: 4px;
+        padding: 6px 12px;
+        margin: 8px auto;
+        font-size: 11px;
+        text-align: left;
+        line-height: 1.6;
+    }
+    .video-links a {
+        color: #1d4ed8;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .video-links a:hover {
+        text-decoration: underline;
+    }
+    .meta-tag {
+        display: inline-block;
+        background: #2b3a4a;
+        color: #fff;
+        padding: 2px 8px;
+        border-radius: 3px;
+        font-size: 10.5px;
+        margin-top: 3px;
+    }
+    h2 {
+        color: #102a43;
+        background: #eef2f6;
+        border-left: 5px solid #244b7a;
+        padding: 5px 10px;
+        font-size: 14.5px;
+        margin-top: 14px;
+        margin-bottom: 8px;
+        page-break-after: avoid;
+    }
+    h3 {
+        color: #8b0000;
+        font-size: 13px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        border-bottom: 1px dashed #bbb;
+        padding-bottom: 2px;
+        page-break-after: avoid;
+    }
+    .gem-red {
+        display: inline-block;
+        background-color: #ffebee;
+        color: #b71c1c;
+        border: 1px solid #ef9a9a;
+        border-radius: 3px;
+        padding: 1.5px 5px;
+        font-weight: bold;
+        font-size: 11px;
+        margin: 1px;
+    }
+    .gem-green {
+        display: inline-block;
+        background-color: #e8f5e9;
+        color: #1b5e20;
+        border: 1px solid #a5d6a7;
+        border-radius: 3px;
+        padding: 1.5px 5px;
+        font-weight: bold;
+        font-size: 11px;
+        margin: 1px;
+    }
+    .gem-blue {
+        display: inline-block;
+        background-color: #e3f2fd;
+        color: #0d47a1;
+        border: 1px solid #90caf9;
+        border-radius: 3px;
+        padding: 1.5px 5px;
+        font-weight: bold;
+        font-size: 11px;
+        margin: 1px;
+    }
+    .gem-link {
+        color: #888;
+        font-weight: bold;
+        margin: 0 1px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 8px 0;
+        font-size: 11px;
+    }
+    th, td {
+        border: 1px solid #ccc;
+        padding: 5px 7px;
+        text-align: left;
+    }
+    th {
+        background-color: #f1f5f9;
+        color: #1e293b;
+        font-weight: bold;
+    }
+    .highlight-row {
+        background-color: #fcfcfc;
+    }
+    .callout {
+        background-color: #fff9db;
+        border-left: 4px solid #f59f00;
+        padding: 7px 11px;
+        margin: 8px 0;
+        border-radius: 2px;
+    }
+    .callout-title {
+        font-weight: bold;
+        color: #d9480f;
+        margin-bottom: 3px;
+        font-size: 12px;
+    }
+    .mechanic-box {
+        background: #f8fafc;
+        border: 1px solid #cbd5e1;
+        border-radius: 4px;
+        padding: 6px 10px;
+        margin: 6px 0;
+    }
+    .code-box {
+        background: #f1f3f5;
+        border: 1px solid #ced4da;
+        border-radius: 3px;
+        padding: 2px 6px;
+        font-family: Consolas, monospace;
+        font-size: 11px;
+        color: #c92a2a;
+        font-weight: bold;
+    }
+    ul, ol {
+        margin: 3px 0 6px 16px;
+        padding: 0;
+    }
+    li {
+        margin-bottom: 3px;
+    }
+    .page-break {
+        page-break-before: always;
+    }
+    .footer {
+        margin-top: 20px;
+        text-align: center;
+        color: #777;
+        font-size: 10px;
+        border-top: 1px solid #e2e8f0;
+        padding-top: 6px;
+    }
+</style>
+</head>
+<body>
+
+<div class="header-banner">
+    <h1>【POE】Duelist 決鬥者 A5 Any% 57:09 世界紀錄全解析</h1>
+    <div class="subtitle">原作者：Ben_ ｜ 技能替換上色（PoB 正名校準）、鎖殘暴雙倍機制、通貨管理與地形生成</div>
+    <div class="meta-tag">ExileCon Qualifier Record ｜ 官方 Garena / PoB 繁中正名 100% 核對</div>
+</div>
+
+<div class="video-links">
+    <b>▶ 影片來源與相關資源連結：</b><br>
+    • 本文字解說版影片：<a href="https://www.youtube.com/watch?v=z_tckStzpmg" target="_blank">https://www.youtube.com/watch?v=z_tckStzpmg</a><br>
+    • Ben_ 原版無解說紀錄影片：<a href="https://youtu.be/zpkOip1xTCI" target="_blank">https://youtu.be/zpkOip1xTCI</a><br>
+    • GGG 官方資格賽實況錄影：<a href="https://www.twitch.tv/videos/2864426185" target="_blank">Twitch VOD 第一場</a> ｜ <a href="https://www.twitch.tv/videos/2870667067" target="_blank">第二場</a> ｜ <a href="https://www.twitch.tv/videos/2876826894" target="_blank">第三場</a>
+</div>
+
+<h2>一、 核心速通架構與運行邏輯 (Core Build Concept)</h2>
+<p>
+本套競速打法為傳奇選手 <b>Ben_</b> 奪得 ExileCon 資格賽世界紀錄（A5 耗時 57:09）的 Duelist 拓荒體系。其核心精華在於：
+<b>「徹底捨棄多餘戰鬥，將清圖、位移、打王完全拆解為三大極限模組」</b>：
+</p>
+<ul>
+    <li><b>單體爆發模組</b>：利用【充能打擊】連環雷霆光束，強制鎖定【殘暴】第 3 擊與【威嚇戰吼】雙倍傷害，3 秒融化章節大王。</li>
+    <li><b>跑圖清怪模組</b>：【躍擊】跳入怪堆同時施放【靈體旋武】或啟動【充能打擊】，人不停步繼續跳躍往前跑，怪在身後死掉自動進帳經驗。</li>
+    <li><b>高頻位移模組</b>：以攻速為核心指標，【躍擊】串聯【氣勢】與【快速攻擊】，搭配【霜漣之瞬】翻越地形死角並取消技能後搖。</li>
+</ul>
+
+<div class="callout">
+    <div class="callout-title">★ 插槽色彩與寶石屬性上色對應（已 100% 核對 PoB 與 Garena 台服官方譯名）</div>
+    <span class="gem-red">紅色寶石 (力量 STR)</span>：充能打擊、殘暴、先祖怒嚎、近身戰、盛怒、躍擊、重盾衝鋒、鋼筋鐵骨、威嚇戰吼、灰燼之捷。<br>
+    <span class="gem-green">綠色寶石 (敏捷 DEX)</span>：靈體投擲、機率流血、齊射、靈體旋武、快速攻擊、氣勢、盜獵者印記、鮮血狂怒、迅捷。<br>
+    <span class="gem-blue">藍色寶石 (智慧 INT)</span>：霜漣之瞬 (Frostblink)。
+</div>
+
+<h2>二、 完整技能替換順序與階段串聯表 (Skill Progression Timeline)</h2>
+
+<table>
+    <tr>
+        <th style="width: 14%;">章節與進度</th>
+        <th style="width: 44%;">主力攻擊技能與輔助串聯 (PoB 官方正名)</th>
+        <th style="width: 42%;">位移技能、光環與狀態輔助 (PoB 官方正名)</th>
+    </tr>
+    <tr class="highlight-row">
+        <td><b>A1 典獄長前</b><br>(Lv 1 ~ 8)</td>
+        <td>
+            <b>手長安全過渡核心：</b><br>
+            <span class="gem-green">機率流血輔助</span> <span class="gem-link">—</span>
+            <span class="gem-green">齊射輔助</span> <span class="gem-link">—</span>
+            <span class="gem-green">靈體投擲</span>
+        </td>
+        <td>
+            <span class="gem-red">重盾衝鋒</span> <span class="gem-link">—</span>
+            <span class="gem-green">氣勢輔助</span><br>
+            <span class="gem-blue">霜漣之瞬</span>、
+            <span class="gem-red">誘餌圖騰</span> (打希拉克/碎岩怪穩仇恨)
+        </td>
+    </tr>
+    <tr>
+        <td><b>A1 莫威爾前</b><br>(Lv 8 ~ 12)</td>
+        <td>
+            <span class="gem-green">機率流血輔助</span> <span class="gem-link">—</span>
+            <span class="gem-green">齊射輔助</span> <span class="gem-link">—</span>
+            <span class="gem-green">靈體投擲</span>
+        </td>
+        <td>
+            <b>正式切換核心跳躍位移：</b><br>
+            <span class="gem-red">躍擊</span> <span class="gem-link">—</span>
+            <span class="gem-green">氣勢輔助</span> <span class="gem-link">—</span>
+            <span class="gem-green">快速攻擊輔助</span><br>
+            <span class="gem-blue">霜漣之瞬</span>、
+            <span class="gem-red">誘餌圖騰</span>、
+            <span class="gem-red">鋼筋鐵骨</span>
+        </td>
+    </tr>
+    <tr class="highlight-row">
+        <td><b>A2 16等前</b><br>(Lv 12 ~ 16)</td>
+        <td>
+            <b>體系成型（放棄靈投）：</b><br>
+            <span class="gem-red">充能打擊</span> <span class="gem-link">—</span>
+            <span class="gem-red">殘暴輔助</span> <span class="gem-link">—</span>
+            <span class="gem-red">先祖怒嚎輔助</span><br>
+            <span class="gem-green">靈體旋武</span> <span class="gem-link">—</span>
+            <span class="gem-green">機率流血輔助</span>
+        </td>
+        <td>
+            <span class="gem-red">躍擊</span> <span class="gem-link">—</span>
+            <span class="gem-green">氣勢輔助</span> <span class="gem-link">—</span>
+            <span class="gem-green">快速攻擊輔助</span><br>
+            <span class="gem-blue">霜漣之瞬</span>、
+            <span class="gem-red">誘餌圖騰</span>、
+            <span class="gem-red">威嚇戰吼</span> (雙倍爆發引擎)
+        </td>
+    </tr>
+    <tr>
+        <td><b>A2 尾王前</b><br>(Lv 16 ~ 20)</td>
+        <td>
+            <span class="gem-red">充能打擊</span> <span class="gem-link">—</span>
+            <span class="gem-red">盛怒輔助</span> <span class="gem-link">—</span>
+            <span class="gem-red">近身戰輔助</span><br>
+            <span class="gem-green">靈體旋武</span>
+        </td>
+        <td>
+            <span class="gem-red">躍擊</span> <span class="gem-link">—</span>
+            <span class="gem-green">氣勢輔助</span> <span class="gem-link">—</span>
+            <span class="gem-green">快速攻擊輔助</span><br>
+            <span class="gem-green">盜獵者印記</span>、
+            <span class="gem-red">灰燼之捷</span>、
+            <span class="gem-green">鮮血狂怒</span>、
+            <span class="gem-red">威嚇戰吼</span>
+        </td>
+    </tr>
+    <tr class="highlight-row">
+        <td><b>A3 ~ A5 終局完全體</b><br>(雙 4 連配置)</td>
+        <td>
+            <b>單體核彈 4 連：</b><br>
+            <span class="gem-red">充能打擊</span> <span class="gem-link">—</span>
+            <span class="gem-red">殘暴輔助</span> <span class="gem-link">—</span>
+            <span class="gem-red">近身戰輔助</span> <span class="gem-link">—</span>
+            <span class="gem-red">盛怒輔助</span>
+        </td>
+        <td>
+            <b>跑圖割草 4 連：</b><br>
+            <span class="gem-red">躍擊</span> <span class="gem-link">—</span>
+            <span class="gem-green">氣勢輔助</span> <span class="gem-link">—</span>
+            <span class="gem-green">快速攻擊輔助</span> <span class="gem-link">—</span>
+            <span class="gem-green">靈體旋武</span><br>
+            <b>狀態光環：</b><br>
+            <span class="gem-green">迅捷</span> (全速跑圖)、
+            <span class="gem-red">灰燼之捷</span>、
+            <span class="gem-green">鮮血狂怒</span>、
+            <span class="gem-green">盜獵者印記</span>、
+            <span class="gem-blue">霜漣之瞬</span>、
+            <span class="gem-red">威嚇戰吼</span>
+        </td>
+    </tr>
+</table>
+
+<h2>三、 Ben_ 頂級黑科技：單體「鎖殘暴 ＋ 雙倍威嚇」機制剖析</h2>
+<div class="callout">
+    <div class="callout-title">★ 影片 58:10 核心爆料：為什麼王可以在數秒內瞬間融化？</div>
+    <div class="mechanic-box">
+        <b>1. 充能打擊的快照繼承特性 (Snapshot Mechanism)</b>：<br>
+        【充能打擊】擊中敵人後，會在角色周圍產生持續數秒的連環雷霆光束。在 PoE 底層機制中，這組閃電光束的傷害會<b>完整繼承引發該次打擊時的所有攻擊狀態與增傷乘數</b>！
+    </div>
+    <div class="mechanic-box">
+        <b>2. 雙重獨立乘算放大 (Multiplicative Scaling)</b>：<br>
+        <span class="gem-red">殘暴輔助 (Ruthless)</span> 的「第三次擊中造成巨大更多傷害 (More Damage)」，加上 <span class="gem-red">威嚇戰吼 (Intimidating Cry)</span> 賦予的「下兩次攻擊造成雙倍傷害 (Double Damage)」。兩者相乘，單次攻擊期望值直接翻上數倍！
+    </div>
+    <div class="mechanic-box">
+        <b>3. 神級操作細節：打王前重插寶石 (Resocket)</b>：<br>
+        殘暴的計數器平常打小怪是不穩定的。Ben_ 在進入首領房（瓦爾超靈、神主、派蒂、奇塔弗）前，會<b>將【殘暴】寶石拔起再插回去</b>，強制將計數器重置為 0！進場吼出威嚇戰吼，原地平 A 兩下，第三下必定打出吃到「殘暴 ＋ 雙倍」的大重擊，隨後 6~8 秒內的連環雷霆全數繼承雙重核彈威力！
+    </div>
+</div>
+
+<div class="page-break"></div>
+
+<h2>四、 通貨管理、商店過濾與武器更換策略 (Economy & Progression)</h2>
+
+<h3>1. 武器選擇標準：攻速 (Attack Speed) ＞ 單發點傷</h3>
+<ul>
+    <li><b>長斧 (Poleaxe) 的實戰取捨</b>：影片中 Ben_ 在地面打到一把物理點傷極大的長斧，但他指出長斧基礎攻速僅 1.2。速通全靠【躍擊】移動，攻速慢會使躍擊跳躍頻率劇降，整場跑圖時間大幅落後。除非武器自帶高額攻擊速度與命中，否則<b>優先挑選攻速在 1.35 以上的雙手斧或雙手長劍</b>。</li>
+    <li><b>鐵匠砥石物理配方 (Vendor Recipe)</b>：路上撿到白底優質武器或高攻速基底，立即回城使用配方：<br>
+    <div style="margin: 4px 0 4px 10px; font-weight: bold; color: #102a43;">
+        ★ 武器 ＋ 鐵匠砥石 ＋ 素質生皮/稀有腰帶 ＝ 增加 (40–69)% 物理傷害之魔法武器
+    </div>
+    這是整場拓荒保持武器傷害不落後的最核心手段。</li>
+</ul>
+
+<h3>2. 商店 Regex 字串管理（城鎮停留嚴格壓在 3 秒內）</h3>
+<ul>
+    <li>進城前剪貼簿備妥過濾字串：<span class="code-box">r-g-b|g-g-r|r-r-g|nne|l-l-l</span></li>
+    <li>進城打開商人商店一鍵貼上，1 秒內識別是否有：
+        <ol>
+            <li><b>三色三連裝備</b>：買下賣回商店換取【幻色石 (Chromatic Orb)】。</li>
+            <li><b>跑速鞋 (Movement Speed)</b>：有跑速鞋必買，跑速等於速通生命。</li>
+            <li><b>關鍵插槽色彩</b>：雙紅一綠、三紅一綠的 3 連或 4 連底子。</li>
+        </ol>
+    </li>
+    <li>嚴格落實「不在城鎮內整理背包、邊跑圖邊丟棄雜物」的紀律。</li>
+</ul>
+
+<h2>五、 A1 ～ A5 章節跑圖與地形生成獨門細節 (Speedrun Layout Guide)</h2>
+
+<h3>第一章 (Act 1)：基礎建設與極速破關</h3>
+<ul>
+    <li><b>炙熱鹽坑 (Mud Flats)</b>：順著邊緣河道與海岸前進，三個菊石鳥巢必定呈大致的「三角形分佈」。摸完第三個鳥巢解開水壩後，立即原地下線或開傳送門，省下回程長路。</li>
+    <li><b>監牢 (The Prison)</b>：尋找通往下一層與典獄長房間的樓梯時，不用盲目逛街，緊盯牆面上的<b>火把與血跡</b>，火把密集的一側必定通往正確出口。</li>
+    <li><b>莫威爾之穴 (Caverns of Merveil)</b>：順著海風與水流方向前進，若遇到死胡同，出口必定在另一側的石柱夾縫中。</li>
+</ul>
+
+<h3>第二章 (Act 2)：關鍵分支與路標識別</h3>
+<ul>
+    <li><b>西邊森林 (Western Forest)</b>：沿著中間主要石板大道跑，路面有一處<b>斷裂的石塊碎屑</b>，碎屑指向的一側必定是阿莉亞 (Alira) 的營地；石板路的正對面邊緣必定是蜘蛛洞 (The Weaver's Chambers)。摸清楚後直接去打蜘蛛，回頭再順路殺阿莉亞。</li>
+    <li><b>瓦爾廢墟 (Vaal Ruins)</b>：推開古老樹根進入廢墟後，遵循古老石柱的延伸走向前進，左下角落通常是封閉死路。</li>
+    <li><b>罪惡之殿 (Chamber of Sins)</b>：二層尋找派蒂實驗室時，沿著鋪滿電線的地板走，電線匯聚處即為任務終點。</li>
+</ul>
+
+<h3>第三章 (Act 3)：水道、神殿與暗門密道</h3>
+<ul>
+    <li><b>下水道 (The Sewers)</b>：起點入口附近通常就座落第一個半身像。沿著主走道前進，看到水閥轉角必定有叉路分支，第二與第三個雕像順路即可摸齊。</li>
+    <li><b>月影神殿 (Lunaris Temple)</b>：區分通往派蒂的樓梯時，雙層豪華且平整的紅地毯通常是指向死路房間；<b>單條破損、旁邊散落推車與屍體的地板</b>才是通往二層的正確道路。</li>
+    <li><b>神權之塔 (The Sceptre of God)</b>：每層樓梯通常位於對角線位置，進圖後直接朝對角方向跳躍前進。</li>
+</ul>
+
+<h3>第四章 (Act 4)：順時針環跑與血肉脈動</h3>
+<ul>
+    <li><b>乾涸湖泊 (The Dried Lake)</b>：出城後沿著湖面內圈以<b>順時針方向</b>跳躍前進，德瑞索 (Voll) 的競技場大門極高機率座落在 1 點鐘至 2 點鐘方向。</li>
+    <li><b>育靈房與獸腹 (Belly of the Beast)</b>：在扭曲複雜的血肉管道中，觀察牆面與地面的<b>管線脈動節奏</b>，搏動最劇烈、血管粗大的通道就是通往下一層的入口。</li>
+</ul>
+
+<h3>第五章 (Act 5)：斷牆翻越與秒數極限壓縮</h3>
+<ul>
+    <li><b>焚燒法院與聖堂屋頂 (Cathedral Rooftop)</b>：Ben_ 特別指出：<b>「提早預判並跳牆切圖 (Try to guess the zone and get out early)」</b>。充分利用【躍擊】穿過破損矮牆、露台與碎石堆，不必依循設計的長廊繞路，整章可直接壓縮 1 分鐘以上的跑圖時間。</li>
+    <li><b>受遺棄的牢房 (The Reliquary)</b>：任務道具房間通常分佈在四周角落，順時針外圈摸完後立刻用傳送門回城。</li>
+</ul>
+
+<div class="footer">
+Generated for PoE Speedrun Analysis ｜ Traditional Chinese Edition ｜ 100% Compliant with PoB Official Terminology
+</div>
+
+</body>
+</html>
